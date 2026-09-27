@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: #F7F5F0;
+  color: #101F2B;
+}
+
+::selection {
+  background-color: #1F7A4D;
+  color: #F7F5F0;
+}
