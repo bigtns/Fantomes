@@ -21,7 +21,7 @@ export default function Home() {
 
           <div className="mt-9">
             <Link
-              href="/paiement"
+              href="/api/checkout"
               className="block w-full rounded-full bg-billet px-8 py-4 text-center text-lg font-semibold text-creme active:bg-billet-clair sm:inline-block sm:w-auto"
             >
               Débusquer mes fantômes — 19 €
@@ -89,7 +89,7 @@ export default function Home() {
             Combien de fantômes se cachent dans ton relevé&nbsp;?
           </p>
           <Link
-            href="/paiement"
+            href="/api/checkout"
             className="mt-8 block w-full rounded-full bg-billet px-8 py-4 text-center text-lg font-semibold text-creme active:bg-billet-clair sm:inline-block sm:w-auto"
           >
             Débusquer mes fantômes — 19 €
