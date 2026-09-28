@@ -27,17 +27,16 @@ export default function Legal() {
         </h2>
         <p>
           Le site Fantômes est édité par Barber tun's, SAS au capital de
-          [À COMPLÉTER : capital social] €, dont le siège est situé 50 rue de
-          France, 77300 Fontainebleau.
+          1 000 €, dont le siège est situé 50 rue de France, 77300
+          Fontainebleau.
         </p>
         <p>
-          SIRET : 953 424 983 00013. RCS : [À COMPLÉTER : ville et numéro
-          d'immatriculation]. TVA intracommunautaire : [À COMPLÉTER : numéro
-          ou « non applicable »].
+          SIRET : 953 424 983 00013. RCS Melun 953 424 983. TVA
+          intracommunautaire : FR71 953 424 983 [À VÉRIFIER].
         </p>
         <p>
-          Directeur de la publication : Mehdi Sraieb [À VÉRIFIER : qualité,
-          par exemple Président]. Contact : servicefantomes@outlook.fr.
+          Directeur de la publication : Mehdi Sraieb, Président. Contact :
+          servicefantomes@outlook.fr.
         </p>
         <p>
           Hébergeur : Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789,
@@ -56,10 +55,10 @@ export default function Legal() {
           relevé.
         </p>
         <p>
-          <strong>2. Prix et paiement.</strong> L'audit est vendu 19 € [À
-          COMPLÉTER : TTC, ou HT si non assujetti à la TVA], en paiement
-          unique par carte bancaire via la plateforme sécurisée Stripe.
-          L'éditeur ne conserve aucun numéro de carte.
+          <strong>2. Prix et paiement.</strong> L'audit est vendu 19 € TTC
+          (TVA à 20 % incluse), en paiement unique par carte bancaire via la
+          plateforme sécurisée Stripe. L'éditeur ne conserve aucun numéro de
+          carte.
         </p>
         <p>
           <strong>3. Commande.</strong> La commande est conclue à la
@@ -86,9 +85,11 @@ export default function Legal() {
         </p>
         <p>
           <strong>6. Réclamations et médiation.</strong> Toute réclamation
-          peut être adressée à servicefantomes@outlook.fr. En l'absence de
-          solution, le client peut recourir gratuitement au médiateur de la
-          consommation : [À COMPLÉTER : nom et coordonnées du médiateur].
+          doit d'abord être adressée par écrit à servicefantomes@outlook.fr.
+          En l'absence de solution, le client peut recourir gratuitement au
+          médiateur de la consommation : CM2C (Centre de la Médiation de la
+          Consommation de Conciliateurs de Justice), 49 rue de Ponthieu,
+          75008 Paris, site : www.cm2c.net, email : cm2c@cm2c.net.
         </p>
         <p>
           <strong>7. Droit applicable.</strong> Les présentes conditions sont
