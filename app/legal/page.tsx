@@ -31,8 +31,8 @@ export default function Legal() {
           Fontainebleau.
         </p>
         <p>
-          SIRET : 953 424 983 00013. RCS Melun 953 424 983. TVA
-          intracommunautaire : FR71 953 424 983 [À VÉRIFIER].
+          SIRET : 953 424 983 00013. RCS Melun 953 424 983. TVA non
+          applicable, article 293 B du CGI.
         </p>
         <p>
           Directeur de la publication : Mehdi Sraieb, Président. Contact :
@@ -55,10 +55,10 @@ export default function Legal() {
           relevé.
         </p>
         <p>
-          <strong>2. Prix et paiement.</strong> L'audit est vendu 19 € TTC
-          (TVA à 20 % incluse), en paiement unique par carte bancaire via la
-          plateforme sécurisée Stripe. L'éditeur ne conserve aucun numéro de
-          carte.
+          <strong>2. Prix et paiement.</strong> L'audit est vendu 19 €, TVA
+          non applicable (article 293 B du CGI), en paiement unique par carte
+          bancaire via la plateforme sécurisée Stripe. L'éditeur ne conserve
+          aucun numéro de carte.
         </p>
         <p>
           <strong>3. Commande.</strong> La commande est conclue à la
