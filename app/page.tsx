@@ -98,7 +98,12 @@ export default function Home() {
       </section>
 
       <footer className="bg-encre px-6 py-8 text-center text-sm text-creme/50 sm:px-10">
-        Fantômes — {new Date().getFullYear()}
+        <p>Fantômes — {new Date().getFullYear()}</p>
+        <p className="mt-2">
+          <Link href="/legal" className="underline">
+            Mentions légales, CGV et confidentialité
+          </Link>
+        </p>
       </footer>
     </main>
   );
