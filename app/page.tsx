@@ -1,4 +1,6 @@
 import Link from "next/link";
+import AnimatedNumber from "./components/AnimatedNumber";
+
 
 export default function Home() {
   return (
@@ -42,7 +44,11 @@ export default function Home() {
         <div className="mx-auto max-w-prose">
           <p className="font-display text-3xl leading-snug sm:text-4xl">
             8 € par mois oubliés pendant 3 ans, ça fait{" "}
-            <span className="text-billet">288 €</span> partis pour rien.
+            <span className="text-billet">
+  <AnimatedNumber target={288} suffix=" €" />
+</span>{" "}
+partis pour rien.
+
           </p>
           <p className="mt-4 text-encre/70">
             Et la plupart des foyers ont plusieurs fantômes en même temps, pas
