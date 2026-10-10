@@ -6,7 +6,11 @@ export default function Home() {
       {/* HERO */}
       <section className="bg-encre text-creme px-6 pt-14 pb-16 sm:px-10 sm:pt-20 sm:pb-24">
         <div className="mx-auto max-w-prose">
-          <p className="font-display text-lg text-billet-clair">Fantômes</p>
+                      <div className="flex items-center justify-between">
+              <p className="font-display text-lg text-billet-clair">Fantômes</p>
+              <span className="ghost-float text-4xl" aria-hidden="true">👻</span>
+            </div>
+
 
           <h1 className="mt-6 font-display text-[2.1rem] leading-[1.15] sm:text-5xl">
             Tu paies peut-être pour des abonnements{" "}
