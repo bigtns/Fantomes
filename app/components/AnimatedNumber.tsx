@@ -24,15 +24,11 @@ export default function AnimatedNumber({
           const duration = 1200;
           const start = performance.now();
 
-                    const tick = (now: number) => {
+          const tick = (now: number) => {
             const progress = Math.min((now - start) / duration, 1);
             setValue(Math.round(progress * target));
             if (progress < 1) requestAnimationFrame(tick);
           };
-
-          requestAnimationFrame(tick);
-
-          }
 
           requestAnimationFrame(tick);
         }
