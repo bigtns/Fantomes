@@ -8,7 +8,7 @@ export default function Home() {
       <section className="bg-encre text-creme px-6 pt-14 pb-16 sm:px-10 sm:pt-20 sm:pb-24">
         <div className="mx-auto max-w-prose">
           <div className="flex items-center justify-between">
-            <p className="font-display text-3xl sm:text-4xl text-billet-clair">
+            <p className="font-display text-5xl sm:text-6xl text-billet-clair">
               Fantôme Services
             </p>
             <span className="ghost-float text-7xl" aria-hidden="true">👻</span>
