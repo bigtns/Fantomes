@@ -19,7 +19,7 @@ export async function GET(request: NextRequest) {
         quantity: 1,
       },
     ],
-    success_url: `${origin}/merci`,
+    success_url: `${origin}/audit?session_id={CHECKOUT_SESSION_ID}`,
     cancel_url: `${origin}/paiement`,
   });
 
