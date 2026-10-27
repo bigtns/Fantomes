@@ -19,10 +19,14 @@ function findColumn(row: Record<string, string>, keywords: string[]) {
 }
 
 function parseAmount(raw: string): number {
-  const cleaned = raw
-    .replace(/[€\s]/g, "")
-    .replace(/\./g, "")
-    .replace(",", ".");
+  let cleaned = raw.replace(/[€\s]/g, "");
+
+  if (cleaned.includes(",")) {
+    // format français : 1.234,56 -> 1234.56
+    cleaned = cleaned.replace(/\./g, "").replace(",", ".");
+  }
+  // sinon on garde le point tel quel : 1234.56
+
   const value = parseFloat(cleaned);
   return isNaN(value) ? NaN : value;
 }
