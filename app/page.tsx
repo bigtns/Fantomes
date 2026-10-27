@@ -5,13 +5,20 @@ export default function Home() {
   return (
     <main>
       {/* HERO */}
-      <section className="bg-encre text-creme px-6 pt-14 pb-16 sm:px-10 sm:pt-20 sm:pb-24">
+      <section
+        className="relative bg-encre text-creme px-6 pt-14 pb-16 sm:px-10 sm:pt-20 sm:pb-24"
+        style={{
+          backgroundImage:
+            "linear-gradient(to bottom, rgba(16,31,43,0.75), rgba(16,31,43,0.95)), url('/1FD03DBC-EDAB-40F5-B308-000487ACB5D0.jpeg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         <div className="mx-auto max-w-prose">
           <div className="flex items-center justify-between">
             <p className="font-display text-5xl sm:text-6xl text-billet-clair">
               Fantôme Services
             </p>
-            <span className="ghost-float text-7xl" aria-hidden="true">👻</span>
           </div>
 
           <h1 className="mt-6 font-display text-[2.1rem] leading-[1.15] sm:text-5xl">
